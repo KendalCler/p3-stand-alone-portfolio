@@ -2606,6 +2606,7 @@ figure {
 
 /* line 21, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
 figure img {
-  box-shadow: 2px 2px 2px gray; }
+  box-shadow: 2px 2px 2px gray;
+  align-items: center; }
 
 /*# sourceMappingURL=styles.css.map */
