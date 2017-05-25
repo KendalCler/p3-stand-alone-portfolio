@@ -2594,19 +2594,48 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 /*# sourceMappingURL=lg-transitions.css.map */
 /* line 8, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
 body {
-  background: orange; }
+  background: #3c3c3c; }
 
-/* line 13, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
-figure {
+/* line 12, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+main {
+  background: #000;
+  margin: 0 auto;
+  width: 90%; }
+
+/* line 19, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+main header img {
+  width: 100%;
+  max-width: 100%; }
+
+/* line 26, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+/* line 32, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+article figure {
   padding: 1em;
-  width: 300px;
-  border-radius: 10%;
-  background: lightyellow;
-  text-align: center; }
+  width: 20em;
+  background: rgba(255, 255, 255, 0.63);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
 
-/* line 21, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+/* line 41, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
 figure img {
-  box-shadow: 2px 2px 2px gray;
-  align-items: center; }
+  box-shadow: 2px 2px 2px gray; }
+
+/* line 51, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+.bg0 {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png); }
+
+/* line 55, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+.bg1 {
+  background: url(https://previews.123rf.com/images/viktory/viktory1306/viktory130600113/20025251-Pixel-seamless-subtle-background-Snowflakes-of-pixel-Pattern-Can-be-used-for-web-project-wallpaper-p-Stock-Vector.jpg); }
+
+/* line 59, /Users/kcler/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+.bg2 {
+  background: url(http://www.designbolts.com/wp-content/uploads/2012/12/Triangle-White-Seamless-Patterns.jpg); }
 
 /*# sourceMappingURL=styles.css.map */

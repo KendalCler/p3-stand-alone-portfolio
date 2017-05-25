@@ -3,22 +3,59 @@
 @import "normalize";
 @import "lightgallery";
 @import "lg-transitions";
-    
+@import "lg-thumbnail";
 
 body {
-    background: orange;
+    background: #3c3c3c;
+}
+// Layout
+main {
+    background: #000;
+    margin: 0 auto;
+    width: 90%;
+}
+
+// RWD Header Image
+main header img {
+    width: 100%;
+    max-width: 100%;
+    
 }
 
 // Portfolio Items
-figure {
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article figure {
     padding: 1em;
-    width: 300px;
-    border-radius:10%;
-    background: lightyellow;
-    text-align: center;
+    width: 20em;
+    background: rgba(255, 255, 255, 0.63);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 figure img {
     box-shadow: 2px 2px 2px gray;
-    align-items: center;
+}
+
+
+
+
+
+
+// Random Backgrounds
+.bg0 {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png);
+}
+
+.bg1 {
+  background: url(https://previews.123rf.com/images/viktory/viktory1306/viktory130600113/20025251-Pixel-seamless-subtle-background-Snowflakes-of-pixel-Pattern-Can-be-used-for-web-project-wallpaper-p-Stock-Vector.jpg);
+}
+
+.bg2 {
+  background: url(http://www.designbolts.com/wp-content/uploads/2012/12/Triangle-White-Seamless-Patterns.jpg);
 }
