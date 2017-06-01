@@ -1,8 +1,8 @@
 // Scripts
 // Store Banner Images
-var img0 = 'http://www.publicdomainpictures.net/pictures/150000/velka/blue-sky-1451668678s9M.jpg';
-var img1 = 'http://www.publicdomainpictures.net/pictures/130000/velka/pool-water-1439770501OqV.jpg';
-var img2 = 'https://static.pexels.com/photos/33359/grass-meadow-green-forest.jpg';
+var img0 = 'img/cover1.jpg';
+var img1 = 'img/cover2.jpg';
+var img2 = 'img/cover3.jpg';
 
 // Random Number Generator
 var maxRand = 3;
